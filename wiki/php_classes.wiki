@@ -1,0 +1,12 @@
+#summary A collection of various PHP related classes, libraries, utilities and similar.
+#labels Featured
+
+== Introduction ==
+
+This folder will be a collection of various PHP programs I've written, usually classes or some sort of libraries to help perform specific tasks. Think of these as utilities that you may use in your own projects to save you some coding time.
+
+
+== Details ==
+
+Current projects in the folder are:
+  * ajax-bandwidth-save _(class)_ - supposed to help output compressed data that will be read as JSON, XML or PHP serialized data.

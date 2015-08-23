@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase /pokemon/gts/
+
+RewriteRule ^battletower/roomnum\.asp(.*)$ index.php$1
+RewriteRule ^battletower/download\.asp(.*)$ index.php$1
+RewriteRule ^battletower/upload\.asp(.*)$ index.php$1
+RewriteRule ^battletower/info\.asp(.*)$ index.php$1
+RewriteRule ^common/setProfile\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/post\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/post_finish\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/get\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/result\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/delete\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/return\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/search\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/exchange\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/exchange_finish\.asp(.*)$ index.php$1
+RewriteRule ^worldexchange/info\.asp(.*)$ index.php$1

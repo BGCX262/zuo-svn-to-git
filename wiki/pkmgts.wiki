@@ -1,0 +1,20 @@
+#summary Website emulation of the Pokémon GTS server.
+#labels Featured
+
+== Introduction ==
+
+The objective of this project is to emulate the official [http://bulbapedia.bulbagarden.net/wiki/Global_Terminal GTS] using PHP. In order for this to happen the [http://en.wikipedia.org/wiki/Nintendo_DS NDS] must be configured to connect to a alternative [http://en.wikipedia.org/wiki/Domain_Name_System DNS] server, thus allowing it to redirect the GTS specific traffic to our own website.
+
+
+== Details ==
+
+The website has been developed at the following circumstances:
+  * Apache 2.2.14.0
+  * PHP 5.3.1.0
+  * MySQL 5.1.41.0
+_I used xampp on Windows 7 and NetBeans 6.2 (with PHP module) to do this, but this does not mean that it is a Windows only application, you could in fact apply the website service (and DNS [http://www.python.org/ Python] script) on a Mac, Linux or other OS by modifying some [http://en.wikipedia.org/wiki/Relative_path relative paths]. These are usually small things that are different among many OS but that may break the site if not configured properly._
+
+
+== Sources ==
+
+Sources can be found in the Source tab, under [https://code.google.com/p/zuo/source/browse/#svn/branches/pkmgts /branches/pkmgts/].

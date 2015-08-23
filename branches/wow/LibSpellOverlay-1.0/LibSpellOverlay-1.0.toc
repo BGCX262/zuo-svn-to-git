@@ -1,0 +1,10 @@
+## Interface: 40000
+## Title: Lib: SpellOverlay-1.0
+## Notes: Helps manage custom spell activation overlay textures
+## Author: Vladinator
+## Version: 1.0
+## OptionalDeps: LibStub
+## X-Category: Library
+LibStub.lua
+LibSpellOverlay-1.0.lua
+#example.lua
